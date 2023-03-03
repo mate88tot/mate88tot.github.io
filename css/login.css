@@ -1,0 +1,21 @@
+.login {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    font-size: 26px;
+    font-family: 'limelight';
+    margin: 12px;
+    color: white;
+    line-height: 38px;
+
+}
+
+.login input {
+    display: block;
+}
+
+.login button {
+    font-family: "poppins";
+    text-align: center;
+    margin-top: 12px;
+}

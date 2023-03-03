@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "limelight";
+    src: url(/fonts/Limelight-Regular.ttf);
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url(/fonts/Poppins-Regular.ttf);
+}
+
+.btn {
+    font-size: large;
+    font-family: "poppins";
+    border: none;    
+}
+
+.btn:hover {
+background-color: darkgray;
+}
+
+textarea {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    font-size: large;
+}
+
+
+html { 
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    background-image: url(/img/steak.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 260px;
+    height: 260px;
+    box-shadow: 0px 0px 8px;
+    margin-top: 54px;
+
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: 1px solid;
+    margin-bottom: 40px;
+    font-family: "limelight";
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-family: "limelight";
+}
+
+.navbar {
+    font-family: "limelight";
+    background-color: lightgray;
+    font-size: large;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+
+}
+
+.navbar a {
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    float: left;
+
+}
+
+.active {
+    background-color: darkgray
+}
+
+.navbar a:hover:not(.active) {
+    background-color: darkgray;
+
+}
+
+#right {
+    float: right;
+}

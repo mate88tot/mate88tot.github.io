@@ -1,0 +1,12 @@
+.about-data {
+    font-family: 'limelight';
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 12px;
+    padding: 34px;
+    color: white;
+    font-size: 26px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: left;
+
+}

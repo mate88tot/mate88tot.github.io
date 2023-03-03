@@ -1,0 +1,49 @@
+/* [class*="col"] */
+
+.orders-data {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: large;
+    font-family: "poppins";
+    padding: 30px;
+    margin: 12px;
+    color: white;
+    display: inline-block;
+    line-height: 38px;
+    text-align: left;
+
+}
+
+.orders-data button {
+    font-family: "poppins";
+    text-align: center;
+    font-size: large;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table1 {
+    width: 100%;
+    border: solid 1px;
+}
+
+.table2 {
+    margin-top: 38px;
+    margin-bottom: 38px;
+    width: 60%;
+    border: solid 1px;
+}
+
+.head {
+    background-color: lightgray;
+    color: black;
+    border-bottom: solid 1px;
+    font-weight: bold;
+}
+
+.b {
+    text-align: center;
+    margin-top: 10px;
+}
